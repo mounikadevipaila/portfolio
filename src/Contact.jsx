@@ -74,7 +74,7 @@ const Contact = () => {
           {/* Social Media Icons */}
           <div className="social-icons">
            
-            <a href="https://www.linkedin.com/in/mounika-devi-paila-881b81256/"><FaLinkedinIn /></a>
+            <a href="https://www.linkedin.com/in/mounika-devi-paila-881b81256/" target="_blank"><FaLinkedinIn /></a>
             <a href="https://github.com/mounikadevipaila" target="_blank"><FaGithub /></a>
           </div>
         </div>
