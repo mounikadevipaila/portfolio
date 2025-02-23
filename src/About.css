@@ -1,0 +1,224 @@
+/* General About Section Styling */
+.about {
+    background: #111;
+    color: #fff;
+    padding: 60px 20px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Left Side - About Content */
+.about-content {
+    flex: 1;
+    min-width: 50%;
+    padding: 20px;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.about-content h2 span {
+    color: #f4b400;
+}
+
+.personal-info {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.info-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.info-grid div {
+    flex: 1;
+}
+
+.about-buttons {
+    margin-top: 20px;
+}
+
+.resume-btn
+ {
+    background: #f4b400;
+    color: #000;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+.resume-btn a{
+    text-decoration: none;
+}
+
+.resume-btn:hover {
+    background:white;
+    color: #f4b400;
+}
+
+/* Right Side - About Image */
+.about-image {
+    flex: 1;
+    min-width: 40%;
+    text-align: center;
+    position: relative;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    border: 4px solid #f4b400; ;
+    background: linear-gradient(45deg, rgba(255, 180, 0, 0.8), rgba(255, 180, 0, 0.2), rgba(255, 180, 0, 0.8));
+    background-size: 200% 200%;
+    animation: glowBorder 3s infinite linear, shineEffect 4s infinite linear;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+@keyframes glowBorder {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Shiny Reflection Effect */
+@keyframes shineEffect {
+    0% {
+        box-shadow: 0px 0px 8px rgba(255, 180, 0, 0.4);
+    }
+    50% {
+        box-shadow: 0px 0px 20px rgba(255, 180, 0, 0.6);
+    }
+    100% {
+        box-shadow: 0px 0px 8px rgba(255, 180, 0, 0.4);
+    }
+}
+
+/* Hover Effect - Zoom & Glow */
+.about-image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 180, 0, 0.5);
+}
+
+/* Education Section */
+.education-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.education-section h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.education-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.education-item {
+    background: #222;
+    border: 2px solid #f4b400;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    transition: 0.3s ease-in-out;
+}
+.education-item:hover
+{
+   
+    
+    background: #f4b400;
+        color:black;
+        p,span{
+            color: black;
+        }
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(255, 204, 0, 0.4);
+    
+}
+
+.education-year {
+    display: block;
+    font-weight: bold;
+    color: #f4b400;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+
+/* Tablet View */
+@media (max-width: 1024px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content, .about-image {
+        min-width: 100%;
+    }
+
+    .about-image img {
+        max-width: 250px;
+    }
+
+    .education-item {
+        width: 250px; /* Reduce size for tablet */
+        padding: 15px;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .about-content h2 {
+        font-size: 28px;
+    }
+
+    .info-grid {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .about-image img {
+        max-width: 220px;
+    }
+
+    .education-item {
+        width: 100%;
+        max-width: 220px;
+        padding: 12px;
+    }
+}
+@media (max-width:320px) {
+    .personal-info{
+        margin-top: 60px;
+    }
+    .about-content h2{
+        margin-top:50px;
+    }
+    
+}
+
