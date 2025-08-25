@@ -21,14 +21,14 @@ const internships = [
     id: 2,
     domain: "Web Development",
     description: "During my Web Development Internship, I gained hands-on experience in designing and developing modern web applications with a strong focus on front-end and back-end technologies. I worked on real-world projects, improving my skills in HTML, CSS, JavaScript, React, Node.js, and MongoDB.",
-    period: "July 2023 - Sept 2023",
+    period: "January 2024 - february 2023",
     certificateLink: "/codsoft_internship_certificate.pdf",
   },
   {
     id: 3,
     domain: "FSD With React Native",
     description: "During my Full Stack Development (FSD) Internship with React Native, I gained practical experience in building cross-platform mobile applications using React Native, along with backend integration using Node.js and Express.js.",
-    period: "Aug 2023 - Oct 2023",
+    period: "june 2024 - july 2024",
     certificateLink: "/Summer_internship_certificate.pdf",
   },
 ];
