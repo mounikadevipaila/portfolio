@@ -47,11 +47,10 @@ const Home = () => {
           <h2>Hello, I'm</h2>
           <h1><span className="highlight">Paila Mounika Devi</span></h1>
           <p>
-            Currently I am pursuing B.Tech Third year in Artificial Intelligence and Machine Learning. I am an enthusiastic
-            person to participate in competitions, take up new challenges, and a quick learner. Results-driven Full-Stack
-            Developer skilled in HTML, CSS, JavaScript, React, and backend technologies like Node.js and MongoDB.
-            Passionate about building user-friendly web applications and optimizing performance. Eager to contribute
-            technical expertise to dynamic teams.
+            I am a B.Tech 4th-year student specializing in Artificial Intelligence and Machine Learning, with a strong passion
+ for problem-solving and full-stack development. Proficient in HTML, CSS, JavaScript, ReactJS, and Node.js, I
+ have demonstrated my skills through the development of scalable web applications and innovative projects. I
+ strive to leverage my knowledge and enthusiasm for technology to contribute to impactful solutions.
           </p>
           <button className="btn" onClick={scrollToAbout}>About me</button>
         </div>
