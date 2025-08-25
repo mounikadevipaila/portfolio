@@ -58,22 +58,23 @@ const Contact = () => {
 
           <div className="info-item">
             <FaMapMarkerAlt className="icon" />
-            <p>123 Street, New York City, USA 750056</p>
+            <p>2-37,Vinayaka Street,Marripaka,Jaggampeta</p>
           </div>
 
           <div className="info-item">
             <FaEnvelope className="icon" />
-            <p>steve@mail.com</p>
+            <p>mounikapyla83@gmail.com</p>
           </div>
 
           <div className="info-item">
             <FaPhone className="icon" />
-            <p>+216 21 184 010</p>
+            <p>+91 7893292249</p>
           </div>
 
           {/* Social Media Icons */}
           <div className="social-icons">
-           
+            <a href="#"><FaFacebookF /></a>
+            <a href="#"><FaTwitter /></a>
             <a href="https://www.linkedin.com/in/mounika-devi-paila-881b81256/" target="_blank"><FaLinkedinIn /></a>
             <a href="https://github.com/mounikadevipaila" target="_blank"><FaGithub /></a>
           </div>
