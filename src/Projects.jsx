@@ -7,26 +7,26 @@ import resume from "../src/assets/resume2.png"
 const projects = [
   {
     title: "Portfolio Website",
-    technologies: "HTML, CSS, JavaScript, React",
+    technologies: "HTML, CSS, JavaScript, ReactJs",
     description:
       "I had designed my own personal portfolio website. It is a dynamic and interactive web platform designed to highlight my technical skills, experience, and projects in an engaging and structured way.",
-    gitLink: "https://github.com/yourusername/portfolio",
+    gitLink: "https://portfolio-omega-khaki-38.vercel.app/",
     image: portfolio, // Add your image path here
   },
   {
-    title: "Bus In/Out Service",
-    technologies: "React, Node.js, Express, MongoDB",
+    title: "FarmXpert",
+    technologies: " React.js,Flask,Python,Gemini/OpenAI API,MongoDB.",
     description:
-      "I had worked on a Live Project named Bus In/Out Service. It is a full-stack web application designed to efficiently manage and track college bus transportation with real-time data visualization.",
-    gitLink: "https://github.com/yourusername/bus-in-out",
+      "Developed a full-stack farming assistant with crop recommendation, weather-based pesticide advice, AI disease detection, fertilizer e-commerce,and a chatbot guide. ",
+    gitLink: "https://github.com/mounikadevipaila/FarmXpert",
     image: bus, // Add your image path here
   },
   {
     title: "ATS Free Resume Builder",
-    technologies: "React, Redux, Firebase",
+    technologies: "HTML,CSS,Javascript ",
     description:
       "I had worked on a project called ATS-Free Resume Builder. It simplifies the process of creating ATS-compatible resumes with user-friendly templates and PDF download functionality.",
-    gitLink: "https://github.com/mounikadevipaila/ResumeBuilder",
+    gitLink: "https://mounikadevipaila.github.io/ResumeBuilder/home/homepage.html",
     image: resume, // Add your image path here
   },
 ];
@@ -46,9 +46,9 @@ const Projects = () => {
               <strong>Technologies:</strong> {project.technologies}
             </p>
             <p>{project.description}</p>
-            {/* <a href={project.gitLink} target="_blank" rel="noopener noreferrer" className="git-button">
-              GitHub Link
-            </a> */}
+             <a href={project.gitLink} target="_blank" rel="noopener noreferrer" className="git-button">
+              View Site
+            </a> 
           </div>
         ))}
       </div>
