@@ -15,7 +15,7 @@ const internships = [
     domain: "Web Technologies",
     description: "During my Web Technologies Internship, I worked on developing responsive and interactive web applications using modern front-end and back-end technologies. The internship provided hands-on experience in HTML, CSS, JavaScript, React, and Node.js, along with exposure to best practices in web development.",
     period: "June 2023 - Aug 2023",
-    certificateLink: "/diploma_training_certificate.pdf.pdf",
+    certificateLink: "/diploma_training_certificate.pdf",
   },
   {
     id: 2,
