@@ -7,13 +7,13 @@ const skillsData = [
   { name: "HTML", percentage: 90 },
   { name: "JavaScript", percentage: 60 },
   { name: "CSS", percentage: 85 },
-  { name: "C", percentage: 50 },
+  { name: "Git", percentage: 50 },
   { name: "Java", percentage: 65 },
-  { name: "Python", percentage: 50 },
+  { name: "Node Js", percentage: 60 },
   { name: "React Js", percentage: 60 },
   { name: "React Native", percentage: 60 },
   { name: "DBMS", percentage: 60 },
-  { name: "SQL", percentage: 55 },
+  { name: "MySQL", percentage: 55 },
 ];
 
 const codingProfiles = [
