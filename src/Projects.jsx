@@ -18,7 +18,7 @@ const projects = [
     technologies: " React.js,Flask,Python,Gemini/OpenAI API,MongoDB.",
     description:
       "Developed a full-stack farming assistant with crop recommendation, weather-based pesticide advice, AI disease detection, fertilizer e-commerce,and a chatbot guide. ",
-    gitLink: "https://github.com/mounikadevipaila/FarmXpert",
+    gitLink: "https://farm-xpert-frontend-rddk.vercel.app/",
     image: bus, // Add your image path here
   },
   {
