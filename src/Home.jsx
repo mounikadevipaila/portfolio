@@ -47,10 +47,7 @@ const Home = () => {
           <h2>Hello, I'm</h2>
           <h1><span className="highlight">Paila Mounika Devi</span></h1>
           <p>
-            I am a B.Tech 4th-year student specializing in Artificial Intelligence and Machine Learning, with a strong passion
- for problem-solving and full-stack development. Proficient in HTML, CSS, JavaScript, ReactJS, and Node.js, I
- have demonstrated my skills through the development of scalable web applications and innovative projects. I
- strive to leverage my knowledge and enthusiasm for technology to contribute to impactful solutions.
+         I am a B.Tech graduate specializing in Artificial Intelligence and Machine Learning, with a strong passion for problem-solving and full-stack development. Proficient in HTML, CSS, JavaScript, ReactJS, and Node.js, I have demonstrated my skills through the development of scalable web applications and innovative projects. I strive to leverage my knowledge and enthusiasm for technology to contribute to impactful solutions
           </p>
           <button className="btn" onClick={scrollToAbout}>About me</button>
         </div>
