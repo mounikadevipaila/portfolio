@@ -16,7 +16,7 @@ const educationData = [
     description: "Gained knowledge in programming, database management, and networking."
   },
   {
-    year: "2023 - Present",
+    year: "2023 - 2026",
     title: "BTech in Artificial Intelligece and Machine Learning",
     institution: "Aditya Engineering College,Surampalem",
     description: "Currently pursuing a degree in IT, focusing on full-stack development and data structures."
