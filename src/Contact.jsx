@@ -63,7 +63,7 @@ const Contact = () => {
 
           <div className="info-item">
             <FaEnvelope className="icon" />
-            <p>mounikapyla83@gmail.com</p>
+            <p>mounikadevipaila@gmail.com</p>
           </div>
 
           <div className="info-item">
